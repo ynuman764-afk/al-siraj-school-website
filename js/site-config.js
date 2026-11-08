@@ -21,7 +21,7 @@ const SITE_CONFIG = {
   quranVerseArabic: "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ",
   quranVerseMeaning: "If you are grateful, I will surely increase you (in favor) - Surah Ibrahim (14:7)",
   logoPath: "images/logo/monogram.jpg",
-  establishedYear: "2012",
+  establishedYear: "2010",
 
   // --- 2. Campus & Capacity ---
   campusArea: "11 Kanal Purpose-Built Campus",
@@ -32,17 +32,17 @@ const SITE_CONFIG = {
 
   // --- 3. Contact Numbers & Digital Reach ---
   // (Change these to your real SIM or PTCL numbers)
-  phonePrimary: "+92 300 1234567",
-  phoneSecondary: "+92 301 7654321",
-  whatsappNumber: "+92 300 1234567",
+  phonePrimary: "+92 3331189521",
+  phoneSecondary: "+92 3331189521",
+  whatsappNumber: "+92 3331189521",
   whatsappMessage: "Hello! I would like to inquire about admissions at Al-Siraj Model High School.",
   emailPrimary: "info@alsirajschool.edu.pk",
   emailAdmissions: "admissions@alsirajschool.edu.pk",
 
   // --- 4. School Office Timings ---
-  officeHoursWeekdays: "Monday – Thursday: 7:45 AM – 2:00 PM",
-  officeHoursFriday: "Friday: 7:45 AM – 12:30 PM",
-  officeHoursSaturday: "Saturday: 8:00 AM – 1:00 PM (Admin only)",
+  officeHoursWeekdays: "Monday – Thursday: 7:45 AM – 5:00 PM",
+  officeHoursFriday: "Friday: 7:45 AM – 12:15 PM",
+  officeHoursSaturday: "Saturday: 8:00 AM – 5:00 PM (Admin only)",
   sundayStatus: "Closed",
 
   // --- 5. Current Admissions Announcement Banner ---
@@ -59,17 +59,17 @@ const SITE_CONFIG = {
   },
 
   // --- 7. School Leadership ---
-  principalName: "Mr. Syed Mahmood Ahmed",
+  principalName: "Mr. Naveed Akhtar",
   principalTitle: "Principal & Academic Director",
   principalQualification: "M.Sc. Education, M.Phil Educational Leadership (25+ Years Experience)",
-  vicePrincipalName: "Chaudhry Tariq Mehmood",
-  vicePrincipalTitle: "Vice Principal (Boys Campus)",
+  vicePrincipalName: "Miss Nadia Latif",
+  vicePrincipalTitle: "Vice Principal (Girls Campus)",
 
   // --- 8. School Statistics Counters ---
   statistics: [
-    { label: "Enrolled Students", count: 1250, suffix: "+", icon: "bi-mortarboard-fill" },
+    { label: "Enrolled Students", count: 3000, suffix: "+", icon: "bi-mortarboard-fill" },
     { label: "Qualified Teachers", count: 65, suffix: "+", icon: "bi-person-badge-fill" },
-    { label: "Years of Excellence", count: 14, suffix: "+", icon: "bi-trophy-fill" },
+    { label: "Years of Excellence", count: 16, suffix: "+", icon: "bi-trophy-fill" },
     { label: "Campus Size", count: 11, suffix: " Kanal", icon: "bi-building-fill-check" }
   ]
 };
