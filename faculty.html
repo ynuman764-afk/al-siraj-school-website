@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faculty &amp; Administration | AL-SIRAJ MODEL HIGH SCHOOL</title>
+  <meta name="description" content="Meet the qualified, experienced educators and academic leadership of AL-SIRAJ MODEL HIGH SCHOOL. Subject specialists committed to student success.">
+  <meta property="og:title" content="Faculty Directory | AL-SIRAJ MODEL HIGH SCHOOL">
+  <meta property="og:description" content="Dedicated teachers, subject experts, and school leadership mentoring future leaders on our modern 11-kanal campus.">
+  <meta property="og:image" content="images/faculty/principal.jpg">
+  
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48 64x64">
+  <link rel="icon" type="image/jpeg" href="/images/logo/monogram.jpg">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body data-page="faculty">
+
+  <!-- TOP INFORMATION BAR -->
+  <div class="top-info-bar">
+    <div class="container d-flex justify-content-between align-items-center flex-wrap">
+      <div class="d-flex align-items-center flex-wrap">
+        <a href="tel:+923001234567" data-config-phone><i class="bi bi-telephone-fill"></i> +92 300 1234567</a>
+        <span class="meta-sep d-none d-sm-inline">|</span>
+        <a href="mailto:info@alsirajschool.edu.pk" data-config-email class="d-none d-md-inline-flex"><i class="bi bi-envelope-fill"></i> info@alsirajschool.edu.pk</a>
+        <span class="meta-sep d-none d-md-inline">|</span>
+        <span class="d-none d-lg-inline text-light"><i class="bi bi-geo-alt-fill text-warning"></i> Shahbazpur Road, Pakistan</span>
+      </div>
+      <div class="d-flex align-items-center gap-3">
+        <span class="top-admission-kicker d-none d-sm-inline">
+          <i class="bi bi-megaphone-fill text-warning me-1"></i> Admissions Open 2026–2027
+        </span>
+        <button class="btn btn-sm btn-portal-pill ms-2" data-bs-toggle="modal" data-bs-target="#studentPortalModal">
+          <i class="bi bi-person-badge"></i> Portal / CMS
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN STICKY NAVIGATION BAR -->
+  <header class="main-header">
+    <nav class="navbar navbar-expand-lg py-2">
+      <div class="container">
+        <a class='school-brand' href='/'>
+          <img src="images/logo/monogram.jpg" alt="Al-Siraj Model High School Crest" class="school-brand-logo">
+          <div class="school-brand-text">
+            <span class="brand-main-title">AL-SIRAJ MODEL HIGH SCHOOL</span>
+            <span class="brand-sub-title">BOYS HIGH SCHOOL · NEW CAMPUS</span>
+            <span class="urdu-verse brand-verse-snippet">لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ</span>
+          </div>
+        </a>
+
+        <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbarMenu" aria-controls="mainNavbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list fs-2 text-primary"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbarMenu">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+            <li class="nav-item"><a class='nav-link' href='/'>Home</a></li>
+            <li class="nav-item"><a class='nav-link' href='/about'>About Us</a></li>
+            <li class="nav-item"><a class='nav-link active' href='/faculty'>Faculty</a></li>
+            <li class="nav-item"><a class='nav-link' href='/gallery'>Gallery</a></li>
+            <li class="nav-item"><a class='nav-link' href='/admission'>Admissions</a></li>
+            <li class="nav-item"><a class='nav-link' href='/news'>News &amp; Events</a></li>
+            <li class="nav-item"><a class='nav-link' href='/contact'>Contact Us</a></li>
+            <li class="nav-item ms-lg-2 mt-2 mt-lg-0">
+              <a class='btn btn-gold-school' href='/admission'>
+                <i class="bi bi-pencil-square"></i> Apply Now
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- PAGE HERO BANNER -->
+  <section class="hero-section py-5">
+    <div class="container text-center text-lg-start">
+      <div class="row align-items-center">
+        <div class="col-lg-8">
+          <div class="hero-kicker-unboxed">Academic Team &amp; Mentors</div>
+          <h1 class="hero-headline mb-3">Our Qualified Faculty &amp; Administration</h1>
+          <p class="hero-lead-text mb-0">
+            Passionate subject specialists, experienced board examiners, and dedicated administrators nurturing student curiosity, discipline, and achievement.
+          </p>
+        </div>
+        <div class="col-lg-4 text-center text-lg-end mt-4 mt-lg-0">
+          <div class="small text-light opacity-75">
+            <i class="bi bi-info-circle text-warning me-1"></i> Easy to edit in <code>js/faculty-data.js</code>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FACULTY DIRECTORY SECTION -->
+  <section class="section-padding">
+    <div class="container">
+      <!-- Search and Filter Bar -->
+      <div class="row mb-4 align-items-center justify-content-between">
+        <div class="col-lg-6 mb-3 mb-lg-0">
+          <div class="input-group">
+            <span class="input-group-text bg-white border-end-0 text-muted"><i class="bi bi-search"></i></span>
+            <input type="text" id="facultySearchInput" class="form-control border-start-0 ps-0" placeholder="Search teacher by name, subject, or qualification...">
+          </div>
+        </div>
+        <div class="col-lg-6 text-lg-end">
+          <span class="text-muted small me-2">Departments:</span>
+          <div class="filter-tabs d-inline-flex mb-0">
+            <button class="filter-btn active" data-faculty-filter="all">All</button>
+            <button class="filter-btn" data-faculty-filter="Administration">Leadership</button>
+            <button class="filter-btn" data-faculty-filter="Sciences">Sciences</button>
+            <button class="filter-btn" data-faculty-filter="Mathematics">Mathematics</button>
+            <button class="filter-btn" data-faculty-filter="Computer Science">Computer Science</button>
+            <button class="filter-btn" data-faculty-filter="Languages">Languages</button>
+            <button class="filter-btn" data-faculty-filter="Islamic Studies">Islamic Studies</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dynamic Faculty Cards Container -->
+      <div class="row" id="facultyGridContainer">
+        <!-- Rendered from js/faculty-data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- CALL TO JOIN FACULTY / CONTACT -->
+  <section class="section-padding-sm bg-surface-light text-center border-top">
+    <div class="container">
+      <h2 class="h4 font-display text-primary mb-2">Interested in Joining Our Academic Team?</h2>
+      <p class="text-muted small max-w-2xl mx-auto mb-3" style="max-width:600px;">
+        We welcome passionate, qualified subject educators with exceptional communication skills and dedication to concept-based learning.
+      </p>
+      <a class='btn btn-outline-school' href='/contact'>Submit Your CV to Administration <i class="bi bi-envelope"></i></a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="school-footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <img src="images/logo/monogram.jpg" alt="Al-Siraj Logo" style="width:48px;height:48px;object-fit:contain;">
+            <div>
+              <div class="fw-bold text-white font-display">AL-SIRAJ MODEL HIGH SCHOOL</div>
+              <div class="small text-warning">BOYS HIGH SCHOOL · NEW CAMPUS</div>
+            </div>
+          </div>
+          <p class="small text-muted mb-3">
+            Shahbazpur Road, Pakistan. Fostering academic excellence, moral integrity, and Islamic leadership from Play Group to 9th Class &amp; Hifz.
+          </p>
+          <div class="urdu-verse text-warning small mb-3">
+            "لَئِن شَكَرْتُمْ لَأَزِيدَنَّكُمْ"
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <div class="footer-heading">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href='/'>Home</a></li>
+            <li><a href='/about'>About School</a></li>
+            <li><a href='/faculty'>Faculty Directory</a></li>
+            <li><a href='/gallery'>Photo Gallery</a></li>
+            <li><a href='/admission'>Admissions</a></li>
+            <li><a href='/news'>News &amp; Events</a></li>
+            <li><a href='/contact'>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-heading">Academic Divisions</div>
+          <ul class="footer-links">
+            <li><a href='/admission'>Play Group &amp; Nursery</a></li>
+            <li><a href='/admission'>Primary School (1–5)</a></li>
+            <li><a href='/admission'>Middle School (6–8)</a></li>
+            <li><a href='/admission'>Pre-9th Foundation</a></li>
+            <li><a href='/admission'>9th Class Matric Prep</a></li>
+            <li><a href='/admission'>Hifz-ul-Quran Department</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer-heading">Campus Address</div>
+          <div class="footer-contact-item">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div>Shahbazpur Road, Punjab, Pakistan</div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-telephone-fill"></i>
+            <div><a href="tel:+923001234567" data-config-phone class="text-light">+92 300 1234567</a></div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="bi bi-whatsapp"></i>
+            <div><a href="https://wa.me/923001234567" data-config-whatsapp class="text-light">+92 300 1234567</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom-strip d-flex justify-content-between align-items-center flex-wrap gap-2">
+        <div>&copy; <span class="current-year">2026</span> <strong>AL-SIRAJ MODEL HIGH SCHOOL</strong>. All rights reserved.</div>
+        <div class="text-muted small">A Bigger Campus • Better Learning • Brighter Future</div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="btnBackToTop" class="btn-back-to-top" aria-label="Back to Top"><i class="bi bi-arrow-up"></i></button>
+
+  <!-- Student Portal Modal -->
+  <div class="modal fade" id="studentPortalModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content border-0 shadow-lg">
+        <div class="modal-header portal-modal-header py-3">
+          <h3 class="h6 mb-0 text-white font-display">AL-SIRAJ DIGITAL PORTAL</h3>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-4">
+          <ul class="nav nav-pills portal-nav-pills mb-3" role="tablist">
+            <li class="nav-item"><button class="nav-link active" data-bs-toggle="pill" data-bs-target="#tabResults" type="button">Student Result Checker</button></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane fade show active" id="tabResults">
+              <div class="input-group mb-2">
+                <input type="text" id="portalRollNumber" class="form-control" placeholder="Enter Roll Number (e.g. 1024, 1025, 1026)">
+                <button class="btn btn-primary-school" id="btnCheckResult" type="button">Search Result</button>
+              </div>
+              <div id="portalResultDisplay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/site-config.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/faculty-data.js"></script>
+  <script src="js/news-data.js"></script>
+  <script src="js/gallery-data.js"></script>
+  <script src="js/firebase-config.js"></script>
+  <script src="js/firebase-service.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

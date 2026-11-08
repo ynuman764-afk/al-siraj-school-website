@@ -1,0 +1,157 @@
+/**
+ * AL-SIRAJ MODEL HIGH SCHOOL - RESPONSIVE STYLESHEET
+ * Ensures flawless layout on Mobile (320px+), Tablet (768px), Laptop & Desktop
+ */
+
+@media (max-width: 991.98px) {
+  /* Top info bar compacting */
+  .top-info-bar {
+    text-align: center;
+  }
+  
+  .top-info-bar .d-flex {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .navbar-collapse {
+    background-color: #FFFFFF;
+    border-top: 1px solid var(--color-border);
+    padding: 16px;
+    margin-top: 10px;
+    border-radius: var(--radius-sm);
+    box-shadow: var(--shadow-md);
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 12px;
+  }
+
+  /* Hero Section Mobile */
+  .hero-section {
+    padding: 45px 0 60px;
+    text-align: center;
+  }
+
+  .hero-lead-text {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-buttons-wrap {
+    justify-content: center;
+  }
+
+  .hero-media-wrapper {
+    margin-top: 35px;
+  }
+
+  .hero-media-wrapper img {
+    height: 320px;
+  }
+
+  /* Statistics on Mobile */
+  .stats-strip {
+    margin-top: -20px;
+  }
+
+  .stat-item {
+    border-right: none;
+    border-bottom: 1px solid var(--color-border-subtle);
+    padding: 18px 12px;
+  }
+
+  .stat-item:last-child {
+    border-bottom: none;
+  }
+
+  /* Lightbox buttons on Mobile */
+  .lightbox-btn-prev {
+    left: 5px;
+  }
+  .lightbox-btn-next {
+    right: 5px;
+  }
+  .lightbox-btn-close {
+    top: -35px;
+    right: 5px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .section-padding {
+    padding: 50px 0;
+  }
+
+  .brand-main-title {
+    font-size: 0.95rem;
+  }
+
+  .brand-sub-title {
+    font-size: 0.65rem;
+  }
+
+  .brand-verse-snippet {
+    display: none;
+  }
+
+  .school-brand-logo {
+    width: 42px;
+    height: 42px;
+  }
+
+  .admission-banner {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  .admission-banner .d-flex {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .school-form-card {
+    padding: 24px 18px;
+  }
+
+  .footer-heading::after {
+    margin-bottom: 14px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .hero-media-wrapper img {
+    height: 240px;
+  }
+
+  .hero-buttons-wrap {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-buttons-wrap .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .filter-tabs {
+    gap: 6px;
+  }
+
+  .filter-btn {
+    font-size: 0.78rem;
+    padding: 5px 12px;
+  }
+}
+
+/* Reduced Motion Compliance */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
